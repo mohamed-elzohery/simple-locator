@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TypeScript map</title>
+  <link rel="stylesheet" href="app.css" />
+  <script src="dist/bundle.js" defer></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?v=weekly&key=API_KEY"
+      defer
+      async
+    ></script>
+</head>
+<body>
+  <form>
+    <input id="address" type="text" name="address" placeholder="Address"/>
+    <button type="sumbit">Show</button>
+  </form>
+  <div id="map">
+    <p>Please, Enter an address</p>
+  </div>
+</body>
+</html>
